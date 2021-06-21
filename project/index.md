@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Project: -=-------"
+title: "Project: 2021 REU Research"
 linkTitle: Example
 tags: ["project", "reu"]
-description: "Here comes the abstract"
+description: "How many cups of coffee to complete a research paper"
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
@@ -13,7 +13,7 @@ resources:
 
 [![Check Report](https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 [![Status](https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
-Status: draft, Type: Project
+Status: final, Type: Project
 
 
 Firstname Lastname, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364), [Edit](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md)
