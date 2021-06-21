@@ -1,6 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: 2021 REU Research"
+title: "Project: TBD"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "How many cups of coffee to complete a research paper"
