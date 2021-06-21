@@ -1,10 +1,10 @@
 ---
 date: 2021-06-16
-title: "Project: This is the Descriptive Title of the Example"
+title: "Project: -=-------"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
-author: Firstanme, Lastname
+author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
 - src: "**.{png,jpg}"
