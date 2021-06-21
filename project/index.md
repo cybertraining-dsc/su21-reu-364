@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Project: -=-------"
+title: "Project: TBD"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
