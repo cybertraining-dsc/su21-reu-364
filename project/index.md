@@ -1,7 +1,6 @@
 ---
 date: 2021-06-16
-title: "Project: 2021 REU Research"
-title: "Project: TBD"
+title: "Project: Object Recognition"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "How many cups of coffee to complete a research paper"
@@ -17,7 +16,7 @@ resources:
 Status: Final, Type: Project
 
 
-Firstname Lastname, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364), [Edit](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md)
+David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364), [Edit](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md)
 
 {{% pageinfo %}}
 
