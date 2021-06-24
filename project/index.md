@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
-title: "Project: Object Recognition"
-linkTitle: Object Recognition
+title: Project: Object Recognition
+linkTitle: "Object Recognition"
 tags: ["project", "reu"]
 description: "How many cups of coffee to complete a research paper"
 author: David, Umanzor
@@ -13,7 +13,7 @@ resources:
 
 [![Check Report](https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 [![Status](https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
-Status: Final, Type: Project
+Status: final, Type: Project
 
 
 David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364), [Edit](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md)
