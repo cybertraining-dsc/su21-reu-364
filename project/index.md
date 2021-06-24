@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: Object Recognition"
-linkTitle: Example
+linkTitle: Object Recognition
 tags: ["project", "reu"]
 description: "How many cups of coffee to complete a research paper"
 author: David, Umanzor
