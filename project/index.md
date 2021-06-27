@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: Project: Object Recognition
+title: "Project: Object Recognition"
 linkTitle: "Object Recognition"
 tags: ["project", "reu"]
 description: "How many cups of coffee to complete a research paper"
