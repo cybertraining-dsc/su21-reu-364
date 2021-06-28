@@ -9,7 +9,7 @@ github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
----      
+---
 
 [![Check Report](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 [![Status](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
