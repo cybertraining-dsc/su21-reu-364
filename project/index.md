@@ -9,8 +9,8 @@ github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
----         
-           
+---      
+
 [![Check Report](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 [![Status](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 Status: final, Type: Project
@@ -34,8 +34,8 @@ Contents
 
 ## 1. Introduction
 
-- [ ] Find liturature about image processing aand object recognition.
-- [ ] Analyze liturature & explain how this relates.
+- [x] Find liturature about image processing aand object recognition.
+- [x] Analyze liturature & explain how this relates.
 
 ## 2. Data Sets
 
@@ -73,7 +73,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 ## 8. Acknowledgments
 
-Please add acknowledgments to all that contributed or helped on this project.  
+Please add acknowledgments to all that contributed or helped on this project.
 
 - [ ] Gregor Von Laszewski
 
