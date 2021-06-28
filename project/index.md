@@ -34,8 +34,8 @@ Contents
 
 ## 1. Introduction
 
-- [x] Find liturature about image processing aand object recognition.
-- [x] Analyze liturature & explain how this relates.
+- [ ] Find liturature about image processing aand object recognition.
+- [ ] Analyze liturature & explain how this relates.
 
 ## 2. Data Sets
 
