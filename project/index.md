@@ -41,7 +41,7 @@ Contents
 
 ## 2. Data Sets
 
-- [ ] Collect.
+- [ ] Collect image sets for the AI to recognize.
 - [ ] What do these data sets specify.
 - [ ] What are the challenges with Object Recognition? Accuracy.
 
