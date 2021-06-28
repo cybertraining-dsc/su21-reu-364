@@ -35,15 +35,17 @@ Contents
 
 ## 1. Introduction
 
-- [ ] Find liturature about image processing.
-- [ ] Find liturature about object recognition.
-- [ ] Analyze liturature.
+- [ ] Find liturature about image processing aand object recognition.
+- [ ] Analyze liturature & explain how this relates.
 
 ## 2. Data Sets
 
 - [ ] Collect image sets for the AI to recognize.
 - [ ] What do these data sets specify.
 - [ ] What are the challenges with Object Recognition? Accuracy.
+- [ ] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
+  However, if the data is publicly available your program must contain a download function instead that you customize. 
+  Write it using pythons 'request' 
 
 ## 3. Using Images
 
