@@ -44,7 +44,6 @@ Contents
 - [ ] Collect.
 - [ ] What do these data sets specify.
 - [ ] What are the challenges with Object Recognition? Accuracy.
-- [ ] 
 
 ## 3. Using Images
 
