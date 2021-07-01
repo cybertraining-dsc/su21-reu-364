@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Project: Object Recognition"
-linkTitle: "Object Recognition"
+title: "Project: Hand Tracking with AI"
+linkTitle: "Hand Tracking with AI"
 tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
-description: "In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy"
+description: "In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage."
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364)
 
 ## Abstract
 
-In this project we are studying the ability of AI to recognize and tag objects or subjects from a photo with accuracy
+In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage.
 
 Contents
 
@@ -30,16 +30,16 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, object recognition, image processing, computer vision. 
+**Keywords:** ai, object recognition, image processing, computer vision, hand tracking. 
 
 ## 1. Introduction
 
-- [ ] Find liturature about image processing aand object recognition.
-- [ ] Analyze liturature & explain how this relates.
+- [X] Find liturature about image processing aand object recognition.
+- [X] Analyze liturature & explain how this relates.
 
 ## 2. Data Sets
 
-- [ ] Collect image sets for the AI to recognize.
+- [X] Collect image sets for the AI to recognize.
 - [ ] What do these data sets specify.
 - [ ] What are the challenges with Object Recognition? Accuracy.
 - [ ] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
@@ -87,6 +87,6 @@ Please add acknowledgments to all that contributed or helped on this project.
       <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
 
 
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
+[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh CommonH Library, [GitHub] 
       <https://github.com/cloudmesh/cloudmesh-common>
 
