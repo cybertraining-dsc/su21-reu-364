@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: Hand Tracking with AI"
-linkTitle: "Hand Tracking with AI"
+linkTitle: "Hand Tracking"
 tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
 description: "In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage."
 author: David, Umanzor
