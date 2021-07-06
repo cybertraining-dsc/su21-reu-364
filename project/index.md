@@ -13,7 +13,7 @@ resources:
 
 [![Check Report](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
 [![Status](https://github.com/cybertraining-dsc/su21-reu-364/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-364/actions)
-Status: final, Type: Project
+Status: draft, Type: Project
 
 
 David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364), [Edit](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/index.md)
@@ -48,7 +48,7 @@ been approached from various perspectives over the past few decades [9, 14, 27, 
 - [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request' 
-  
+
 ![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/amer_sign2.png)
 
 **Figure 2:** Dataset of hands doing different alphabet letters in ASL [^2].
@@ -57,7 +57,8 @@ been approached from various perspectives over the past few decades [9, 14, 27, 
 
 - [X] Place cool image into projects images in my directory (data set of its ability to be accurate).
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
-- [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption. 
+- [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
+
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/.png))
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
@@ -81,13 +82,11 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 Please add acknowledgments to all that contributed or helped on this project.
 
-- [ ] Gregor Von Laszewski
+- [ ] Gregor von Laszewski
+- [ ]  
 
 ## 9. References
 
-- [ ] Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
-  one point automatically change the references from superscript to square brackets it is best to introduce a space before 
-  the first square bracket.
 
 [^1]: Use of energy explained - Energy use in homes, [Online resource] 
       <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
