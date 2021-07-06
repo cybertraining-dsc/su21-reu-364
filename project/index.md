@@ -48,20 +48,19 @@ Contents
 
 ## 3. Using Images
 
-- [ ] Place cool image into projects images in my directory (data set of its ability to be accurate).
-- [ ] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
-- [ ] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
-- [ ] 
-![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
+- [X] Place cool image into projects images in my directory (data set of its ability to be accurate).
+- [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
+- [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption. 
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand_tracking_test.png)
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
 ## 5. Example of an AI algorithm with Object Recognition
 
-- [ ] Identify the concrete data set that will be used.
-- [ ] Identify the conrete algorithm that completes the image processing for Object Recognition.
-- [ ] Write the program.
-- [ ] Verify that it works.
+- [X] Identify the concrete data set that will be used.
+- [X] Identify the conrete algorithm that completes the image processing for Hand Tracking.
+- [X] Write the program.
+- [X] Verify that it works.
 
 ## 6. Benchmark
 
