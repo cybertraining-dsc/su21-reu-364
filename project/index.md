@@ -59,7 +59,7 @@ been approached from various perspectives over the past few decades [9, 14, 27, 
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
 - [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/.png))
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images.png))
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
@@ -83,7 +83,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 Please add acknowledgments to all that contributed or helped on this project.
 
 - [ ] Gregor von Laszewski
-- [ ]  
+- [ ] 
 
 ## 9. References
 
