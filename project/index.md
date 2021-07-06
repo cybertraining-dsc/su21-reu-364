@@ -43,18 +43,22 @@ been approached from various perspectives over the past few decades [9, 14, 27, 
 ## 2. Data Sets
 
 - [X] Collect image sets for the AI to recognize.
-- [ ] What do these data sets specify.
-- [ ] What are the challenges with Object Recognition? Accuracy.
-- [ ] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
+- [X] What do these data sets specify.
+- [X] What are the challenges with hand tracking? Volatile illumination conditions, occlusion, non-hand color similarity, and varying viewpoints.
+- [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request' 
+  
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/amer_sign2.png)
+
+**Figure 2:** Dataset of hands doing different alphabet letters in ASL [^2].
 
 ## 3. Using Images
 
 - [X] Place cool image into projects images in my directory (data set of its ability to be accurate).
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
 - [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption. 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand_tracking_test.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/.png))
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
@@ -89,6 +93,6 @@ Please add acknowledgments to all that contributed or helped on this project.
       <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
 
 
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh CommonH Library, [GitHub] 
-      <https://github.com/cloudmesh/cloudmesh-common>
+[^2]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
+      <https://www.kaggle.com/datamunge/sign-language-mnist>
 
