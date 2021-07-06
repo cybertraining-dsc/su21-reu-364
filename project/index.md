@@ -34,6 +34,9 @@ Contents
 
 ## 1. Introduction
 
+Object detection and feature selection are essential tasks in computer vision and have
+been approached from various perspectives over the past few decades [9, 14, 27, 36, 52].
+
 - [X] Find liturature about image processing aand object recognition.
 - [X] Analyze liturature & explain how this relates.
 
