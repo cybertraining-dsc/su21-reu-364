@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Project: Hand Tracking with AI"
 linkTitle: "Hand Tracking"
 tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
-description: "In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage."
+description: "In this project we study the ability of an AI to recognize and track hand positions then recognize letters from the American Sign Language alphabet."
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364)
 
 ## Abstract
 
-In this project we study the ability of an AI to recognize and track hand positions with a raspberry PI 4 with 8 GB of ram and 64 GB of storage.
+In this project we study the ability of an AI to recognize and track hand positions then recognize letters from the American Sign Language alphabet.
 
 Contents
 
@@ -30,12 +30,20 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, object recognition, image processing, computer vision, hand tracking. 
+**Keywords:** ai, object recognition, image processing, computer vision, hand tracking, american sign language. 
 
 ## 1. Introduction
 
 Object detection and feature selection are essential tasks in computer vision and have
-been approached from various perspectives over the past few decades [9, 14, 27, 36, 52].
+been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3].
+Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions2,3, yet we still do not 
+understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
+
+A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4].
+
+In this paper we consider the problem of detecting and localizing generic objects from
+categories such as people or cars in moving images and the amount of resources it takes
+to complete the process.
 
 - [X] Find liturature about image processing aand object recognition.
 - [X] Analyze liturature & explain how this relates.
