@@ -36,11 +36,9 @@ Contents
 
 Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3].Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions2,3, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
 
-A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is it allows communication over a long distance [5]. American Sign Language (ASL) is the formal language that has the same lingual properties as oral languages. 
+A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is it allows communication over a long distance [5]. American Sign Language (ASL) is the formal language that has the same lingual properties as oral languages [6]. 
 
-In this paper we consider the problem of detecting and localizing generic objects from
-categories such as people or cars in moving images and the amount of resources it takes
-to complete the process.
+In this paper we consider the problem of detecting and localizing generic objects from categories such as people or cars in moving images and the amount of resources it takes to complete the process.
 
 - [X] Find liturature about image processing aand object recognition.
 - [X] Analyze liturature & explain how this relates.
@@ -105,12 +103,17 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^2]: Wardle, S. G., & Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
       <https://doi.org/10.12688/f1000research.22296.1>
 
-
+[^3]: 
 
 [^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, doi: 10.1109/CSCITA.2014.6839279.
-
-
 
 [^5]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
       <https://www.kaggle.com/datamunge/sign-language-mnist>
 
+[^6]: 
+
+[^7]:
+
+[^8]:
+
+[^9]:
