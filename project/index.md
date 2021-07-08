@@ -57,9 +57,9 @@ to complete the process.
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request' 
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/amer_sign2.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/amer_sign2.png)
 
-**Figure 2:** Dataset of hands doing different alphabet letters in ASL [^2].
+**Figure 1:** Dataset of hands doing different alphabet letters in ASL [^5].
 
 ## 3. Using Images
 
@@ -67,9 +67,9 @@ to complete the process.
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
 - [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand_tracking_test.png)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand_tracking_test.png)
 
-**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
+**Figure 2:** Images can be included in the report, but if they are copied you must cite them.
 
 ## 5. Example of an AI algorithm with Object Recognition
 
@@ -96,10 +96,16 @@ Please add acknowledgments to all that contributed or helped on this project.
 ## 9. References
 
 
-[^1]: Use of energy explained - Energy use in homes, [Online resource] 
-      <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
+[^1]: Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
+      https://arxiv.org/abs/2107.02170. 
+      
+[^2]: Wardle, S. G., & Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
+      <https://doi.org/10.12688/f1000research.22296.1>
 
 
-[^2]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
+      
+[^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, doi: 10.1109/CSCITA.2014.6839279.
+
+[^5]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
       <https://www.kaggle.com/datamunge/sign-language-mnist>
 
