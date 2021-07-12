@@ -112,15 +112,19 @@ List of people to acknowledge
 
 [^3]: 
 
-[^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, doi: 10.1109/CSCITA.2014.6839279.
+[^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, 
+      <doi: 10.1109/CSCITA.2014.6839279>
 
 [^5]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
       <https://www.kaggle.com/datamunge/sign-language-mnist>
 
-[^6]: 
+[^6]: U.S. Department of Health and Human Services. (n.d.). American Sign Language. National Institute of Deafness and Other Communication Disorders.
+      <https://www.nidcd.nih.gov/health/american-sign-language>
 
-[^7]:
+[^7]: A. Rahagiyanto, A. Basuki, R. Sigit, A. Anwar and M. Zikky, "Hand Gesture Classification for Sign Language Using Artificial Neural Network," 2017 21st International Computer Science and Engineering Conference (ICSEC), 2017, pp. 1-5, 
+      <doi: 10.1109/ICSEC.2017.8443898>
 
-[^8]:
+[^8]: Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
+      <https://doi.org/10.1145/3414685.3417852>
 
-[^9]:
+[^9]: 
