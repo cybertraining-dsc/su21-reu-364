@@ -76,8 +76,11 @@ Volatile illumination conditions, occlusion, non-hand color similarity, and vary
 
 - [X] Identify the concrete data set that will be used.
 - [X] Identify the conrete algorithm that completes the image processing for Hand Tracking.
-- [X] Write the program.
+- [X] Write the hand tracking program.
 - [X] Verify that it works.
+- [ ] Identify the algorithm for ML with the dataset.
+- [ ] Write the secondary part of the program.
+- [ ] Verify that it works.
 
 ## 6. Benchmark
 
@@ -91,8 +94,12 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 Please add acknowledgments to all that contributed or helped on this project.
 
+List of people to acknowledge
 - [ ] Gregor von Laszewski
-- [ ] 
+- [ ] Yohn Jairo
+- [ ] Carlos Theran
+- [ ] Byron Greene
+- [ ] Polk State LSAMP Program
 
 ## 9. References
 
