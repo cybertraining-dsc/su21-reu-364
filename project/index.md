@@ -126,8 +126,8 @@ List of people to acknowledge
 [^3]: Wardle, S. G., & Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd. 
       <https://doi.org/10.12688/f1000research.22296.1>
 
-[^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, 
-      <doi: 10.1109/CSCITA.2014.6839279>
+[^4]: Dabre, K., & Dholay, S. (2014). Machine learning model for sign language interpretation using webcam images. 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 317-321.
+      <https://ieeexplore.ieee.org/document/6839279>
 
 [^5]: tecperson, Sign Language MNIST Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks, [Kaggle] 
       <https://www.kaggle.com/datamunge/sign-language-mnist>
