@@ -82,15 +82,28 @@ Volatile illumination conditions, occlusion, non-hand color similarity, and vary
 - [ ] Write the secondary part of the program.
 - [ ] Verify that it works.
 
-## 6. Benchmark
+## 6. Method
+
+- [ ] Gather dataset into a file to select from.
+- [ ] Parse the dataset into grayscale.
+- [ ] Seperate control group and training group from the dataset. (Pick 3 from each letter section to be used as the control group)
+- [ ] Have the training group train a model.
+- [ ] Set the model and check for consistancy and accuracy against the control group. (total of 9 images)
+- [ ] Verify that the model and testing work.
+- [ ] Have the model obtain information from the web camera input.
+- [ ] The model must predict the ASL lettes A, B, or C from the image.
+- [ ] If confidence of the letter is under 0.5 discontinue displaying its prediction until above 0.5.
+- [ ] Output letter predicted, confidence percentile, and hand tracking framework. 
+
+## 7. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
 
-## 6. Conclusion
+## 8. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 8. Acknowledgments
+## 9. Acknowledgments
 
 Please add acknowledgments to all that contributed or helped on this project.
 
@@ -101,7 +114,7 @@ List of people to acknowledge
 - [ ] Byron Greene
 - [ ] Polk State LSAMP Program
 
-## 9. References
+## 10. References
 
 
 [^1]: Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
@@ -110,7 +123,8 @@ List of people to acknowledge
 [^2]: Wardle, S. G., & Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd.
       <https://doi.org/10.12688/f1000research.22296.1>
 
-[^3]: 
+[^3]: Wardle, S. G., & Baker, C. (2020). Recent advances in understanding object recognition in the human brain: Deep neural networks, temporal dynamics, and context. F1000Research. F1000 Research Ltd. 
+      <https://doi.org/10.12688/f1000research.22296.1>
 
 [^4]: K. Dabre and S. Dholay, "Machine learning model for sign language interpretation using webcam images," 2014 International Conference on Circuits, Systems, Communication and Information Technology Applications (CSCITA), 2014, pp. 317-321, 
       <doi: 10.1109/CSCITA.2014.6839279>
