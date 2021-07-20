@@ -84,17 +84,6 @@ Volatile illumination conditions, occlusion, non-hand color similarity, and vary
 
 ## 6. Method
 
-- [ ] Gather dataset into a file to select from.
-- [ ] Parse the dataset into grayscale.
-- [ ] Seperate control group and training group from the dataset. (Pick 3 from each letter section to be used as the control group)
-- [ ] Have the training group train a model.
-- [ ] Set the model and check for consistancy and accuracy against the control group. (total of 9 images)
-- [ ] Verify that the model and testing work.
-- [ ] Have the model obtain information from the web camera input.
-- [ ] The model must predict the ASL lettes A, B, or C from the image.
-- [ ] If confidence of the letter is under 0.5 discontinue displaying its prediction until above 0.5.
-- [ ] Output letter predicted, confidence percentile, and hand tracking framework. 
-
 ## 7. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
