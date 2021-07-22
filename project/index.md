@@ -45,7 +45,7 @@ In this paper we consider the problem of detecting and understanding American Si
 - [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request'
-  
+
 In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.
 
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/images/Hand%20B%20Dataset%20Demo.png)
@@ -63,8 +63,6 @@ In this research we use two sources of datasets, the first is from kaggle which 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
 ## 5. Example of an AI algorithm with Hand Tracking
-
-
 
 ## 6. Methodology
 
@@ -107,5 +105,5 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 
 [^8]: Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
       <https://doi.org/10.1145/3414685.3417852>
-      
-[^9]: https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4
+ 
+[^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
