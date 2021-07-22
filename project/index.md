@@ -48,7 +48,7 @@ In this paper we consider the problem of detecting and understanding American Si
 
 In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/images/Hand%20B%20Dataset%20Demo.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/Hand%20B%20Dataset%20Demo.png)
 
 **Figure 1:** Dataset of hands doing different alphabet letters in ASL [^5].
 
@@ -58,7 +58,7 @@ In this research we use two sources of datasets, the first is from kaggle which 
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
 - [ ] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/images/CNNDiagram.png)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/imagesCNNDiagram.png)
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
