@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Project: Hand Tracking with AI"
 linkTitle: "Hand Tracking"
 tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
-description: "In this project we study the ability of an AI to recognize and track hand positions then recognize letters from the American Sign Language alphabet."
+description: "In this project we study the ability of an AI to recognize letters from the American Sign Language alphabet."
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364)
 
 ## Abstract
 
-In this project we study the ability of an AI to recognize and track hand positions then recognize letters from the American Sign Language alphabet.
+In this project we study the ability of an AI to recognize letters from the American Sign Language alphabet.
 
 Contents
 
@@ -30,59 +30,46 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** ai, object recognition, image processing, computer vision, hand tracking, american sign language. 
+**Keywords:** ai, object recognition, image processing, computer vision, american sign language. 
 
 ## 1. Introduction
 
-Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3].Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions2,3, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
+Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3].Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
 
 A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is it allows communication over a long distance [5]. American Sign Language (ASL) is the formal language that has the same lingual properties as oral languages commonly used by deaf people as a way of communication [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be very difficult using this as people are not typically willing to learn sign language [7].
 
-In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize and translate in real time the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection and tracking ability. Commonly these methods are visual-based methods, using color, shape, and edge to detect and follow the hand [8]. In the research we will be using Open Source Computer Vision (OpenCV) to obtain the computer vision algorithms. MediaPipe Hands will be employed to create 21 3D landmarks of a hand using machine learning (ML) and 2D information from a single webcam input.
+In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize and translate in real time the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection and tracking ability. Commonly these methods are visual-based methods, using color, shape, and edge to detect and follow the hand [8]. While there are issues to these technologies like inconsitant lighting conditions, non-hand color similarity, and varying viewpoints can decrease a computers ability to recognitize the hand and its positioning.
 
 - [X] Find liturature about image processing aand object recognition.
 - [X] Analyze liturature & explain how this relates.
 
 ## 2. Data Sets
 
-- [X] Collect image sets for the AI to recognize.
-- [X] What do these data sets specify.
-
-The first dataset depicts 24 hand signs in the ASL alphabet, these show the hands in the ideal situation with good lighting, clear image, and straight viewpoint to the camera.
-
-- [X] What are the challenges with hand tracking?
-
-Volatile illumination conditions, occlusion, non-hand color similarity, and varying viewpoints can cause variations in the computers ability to track the hand. These challenges can make it hard to detect hands in all situations as
-
 - [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request'
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/amer_sign2.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand b dataset.png)
 
 **Figure 1:** Dataset of hands doing different alphabet letters in ASL [^5].
 
 ## 3. Using Images
 
-- [X] Place cool image into projects images in my directory (data set of its ability to be accurate).
+- [ ] Place cool image into projects images in my directory (data set of its ability to be accurate).
 - [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
-- [X] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
+- [ ] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand_tracking_test.png)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/.png)
 
 **Figure 2:** Images can be included in the report, but if they are copied you must cite them.
 
 ## 5. Example of an AI algorithm with Hand Tracking
 
-- [X] Identify the concrete data set that will be used.
-- [X] Identify the conrete algorithm that completes the image processing for Hand Tracking.
-- [X] Write the hand tracking program.
-- [X] Verify that it works.
-- [ ] Identify the algorithm for ML with the dataset.
-- [ ] Write the secondary part of the program.
-- [ ] Verify that it works.
+OpenCV
 
-## 6. Method
+## 6. Methodology
+
+In this research we built the model using a convolution neural network (CNN) which allows the model to retrieve the images 
 
 ## 7. Benchmark
 
@@ -94,14 +81,7 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 
 ## 9. Acknowledgments
 
-Please add acknowledgments to all that contributed or helped on this project.
-
-List of people to acknowledge
-- [ ] Gregor von Laszewski
-- [ ] Yohn Jairo
-- [ ] Carlos Theran
-- [ ] Byron Greene
-- [ ] Polk State LSAMP Program
+We thank Carlos Theran (Florida A & M University) for advising, guidance, and resources used in the research; We thank Yohn Jairo (Florida A & M University) for guidance and aid on the research report; We thank Gregor von Laszewki (Florida A & M University) for advice and commenting on the code and report; We thank the Polk State LSAMP Program for aid in obtaining this opportunity. We thank Florida A & M University for funding this research.
 
 ## 10. References
 
@@ -129,5 +109,3 @@ List of people to acknowledge
 
 [^8]: Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
       <https://doi.org/10.1145/3414685.3417852>
-
-[^9]: 
