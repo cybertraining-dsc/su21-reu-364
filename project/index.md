@@ -3,7 +3,7 @@ date: 2021-06-16
 title: "Project: Hand Tracking with AI"
 linkTitle: "Hand Tracking"
 tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
-description: "In this project we study the ability of an AI to recognize letters from the American Sign Language alphabet."
+description: "In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters 'a', 'b', and 'c' in ASL. With this we build a model to recognize the letter and output the letter it predicts."
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364)
 
 ## Abstract
 
-In this project we study the ability of an AI to recognize letters from the American Sign Language alphabet.
+In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters 'a', 'b', and 'c' in ASL. With this we build a model to recognize the letter and output the letter it predicts.
 
 Contents
 
@@ -40,14 +40,13 @@ A gesture is a form of non verbal communication done with positions and movement
 
 In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize and translate in real time the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection and tracking ability. Commonly these methods are visual-based methods, using color, shape, and edge to detect and follow the hand [8]. While there are issues to these technologies like inconsitant lighting conditions, non-hand color similarity, and varying viewpoints can decrease a computers ability to recognitize the hand and its positioning.
 
-- [X] Find liturature about image processing aand object recognition.
-- [X] Analyze liturature & explain how this relates.
-
 ## 2. Data Sets
 
 - [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request'
+  
+In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.
 
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/images/Hand%20B%20Dataset%20Demo.png)
 
@@ -65,11 +64,13 @@ In this paper we consider the problem of detecting and understanding American Si
 
 ## 5. Example of an AI algorithm with Hand Tracking
 
-OpenCV
+
 
 ## 6. Methodology
 
-In this research we built the model using a convolution neural network (CNN) which allows the model to retrieve the images 
+In this research we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters, using a collection of 282 image data set each containing 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segements of a image and tell the difference from one another using weights and biases and with the proper training it is able to learn to identify these characteristics [9].
+
+
 
 ## 7. Benchmark
 
@@ -84,7 +85,6 @@ A convincing but not fake conclusion should summarize what the conclusion of the
 We thank Carlos Theran (Florida A & M University) for advising, guidance, and resources used in the research; We thank Yohn Jairo (Florida A & M University) for guidance and aid on the research report; We thank Gregor von Laszewki (Florida A & M University) for advice and commenting on the code and report; We thank the Polk State LSAMP Program for aid in obtaining this opportunity. We thank Florida A & M University for funding this research.
 
 ## 10. References
-
 
 [^1]: Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
       https://arxiv.org/abs/2107.02170. 
@@ -109,3 +109,5 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 
 [^8]: Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
       <https://doi.org/10.1145/3414685.3417852>
+      
+[^9]: https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4
