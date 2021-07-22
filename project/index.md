@@ -49,7 +49,7 @@ In this paper we consider the problem of detecting and understanding American Si
   However, if the data is publicly available your program must contain a download function instead that you customize. 
   Write it using pythons 'request'
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/hand b dataset.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/blob/main/project/images/Hand%20B%20Dataset%20Demo.png)
 
 **Figure 1:** Dataset of hands doing different alphabet letters in ASL [^5].
 
