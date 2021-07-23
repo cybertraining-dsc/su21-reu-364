@@ -62,8 +62,6 @@ In this research we use two sources of datasets, the first is from kaggle which 
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
-## 5. Example of an AI algorithm with Hand Tracking
-
 ## 6. Methodology
 
 In this research we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters, using a collection of 282 image data set each containing 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segements of a image and tell the difference from one another using weights and biases and with the proper training it is able to learn to identify these characteristics [9].
