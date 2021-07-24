@@ -54,9 +54,13 @@ In this research we use two sources of datasets, the first is from kaggle which 
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
+This model shows the CNN model that we used to train the AI, by taking the image
+
 ![Figure 3](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/ConfusionMatrixCNN.png)
 
 **Figure 3:** The Confusion Matrix of the finished CNN model.
+
+The Confusion Matrix shows the results of the model after being tested on its ability to recognize each letter, in the image it shows that the AI had a difficult time recognizing the difference between an 'a' and 'c'.
 
 ## 4. Methodology
 
