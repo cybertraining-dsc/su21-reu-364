@@ -42,43 +42,39 @@ In this paper we consider the problem of detecting and understanding American Si
 
 ## 2. Data Sets
 
-- [X] Datasets can be huge and GitHub has lmited space. Only very small datasets should be stored in GitHub. 
-  However, if the data is publicly available your program must contain a download function instead that you customize. 
-  Write it using pythons 'request'
-
 In this research we use two sources of datasets, the first is from kaggle which it was already prepared but we needed more. The second is self made dataset by take images in good lighting against a white wall, it was then cropped to 400x400 pixels focused on the hand. The program then sets the images to grayscale as the color is not needed for this research. Finally, the images are reduced to 50x50 resolution for the AI to use for training.
 
 ![Figure 1](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/Hand%20B%20Dataset%20Demo.png)
 
 **Figure 1:** Dataset of hands doing different alphabet letters in ASL [^5].
 
-## 3. Using Images
-
-- [ ] Place cool image into projects images in my directory (data set of its ability to be accurate).
-- [X] Correct the following link, replace the fa with su, and the numbers to my reu numbers, change chart.png to file name.
-- [ ] If the image has been copied, you must use a reference such as shown in the Figure 1 caption.
+## 3. Documentation
 
 ![Figure 2](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/CNNDiagram.png)
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
-## 6. Methodology
+![Figure 3](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/ConfusionMatrixCNN.png)
+
+**Figure 3:** The Confusion Matrix of the finished CNN model.
+
+## 4. Methodology
 
 In this research we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters, using a collection of 282 image data set each containing 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segements of a image and tell the difference from one another using weights and biases and with the proper training it is able to learn to identify these characteristics [9]. Define Model(Maxpooling, Conv2d + RELU, Flatten, Fully Connected, Softmax)
 
-## 7. Benchmark
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
 
-## 8. Conclusion
+## 6. Conclusion
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
+We set out to write a program to recognize a hand and the letter it was making using a convolutional neural network (CNN) the results of our research was the programs ability to identify each of the three letters with a average of 66% accuracy, out of the three letters 'a' and 'c' became the most difficult for the CNN to differientiate from each other this is seen in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters 'a' and 'c' and the lack of a larger dataset for the AI to learn from. We determine with a larger dataset to be used in both variation of the entire alphabet and increase number of examples of each letter to train the AI on, it would result in a higher level of accuracy and a better result from the confusion matrix. In future studies using a larger dataset this can be applied to more complex methods than just singluar letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning. 
 
-## 9. Acknowledgments
+## 7. Acknowledgments
 
 We thank Carlos Theran (Florida A & M University) for advising, guidance, and resources used in the research; We thank Yohn Jairo (Florida A & M University) for guidance and aid on the research report; We thank Gregor von Laszewki (Florida A & M University) for advice and commenting on the code and report; We thank the Polk State LSAMP Program for aid in obtaining this opportunity. We thank Florida A & M University for funding this research.
 
-## 10. References
+## 8. References
 
 [^1]: Pan, T.-Y., Zhang, C., Li, Y., Hu, H., Xuan, D., Changpinyo, S., Gong, B., &amp; Chao, W.-L. (2021, July 5). On Model Calibration for Long-Tailed Object Detection and Instance Segmentation. arXiv.org.
       https://arxiv.org/abs/2107.02170. 
