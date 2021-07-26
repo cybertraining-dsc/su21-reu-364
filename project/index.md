@@ -34,11 +34,11 @@ Contents
 
 ## 1. Introduction
 
-Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3].Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
+Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
 
 A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is it allows communication over a long distance [5]. American Sign Language (ASL) is the formal language that has the same lingual properties as oral languages commonly used by deaf people as a way of communication [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be very difficult using this as people are not typically willing to learn sign language [7].
 
-In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize and translate in real time the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection and tracking ability. Commonly these methods are visual-based methods, using color, shape, and edge to detect and follow the hand [8]. While there are issues to these technologies like inconsitant lighting conditions, non-hand color similarity, and varying viewpoints can decrease a computers ability to recognitize the hand and its positioning.
+In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based methods, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsitant lighting conditions, non-hand color similarity, and varying viewpoints can decrease a computers ability to recognitize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.
 
 ## 2. Data Sets
 
@@ -54,13 +54,7 @@ In this research we use two sources of datasets, the first is from kaggle which 
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
-This model shows the CNN model that we used to train the AI, by taking the image
-
-![Figure 3](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/ConfusionMatrixCNN.png)
-
-**Figure 3:** The Confusion Matrix of the finished CNN model.
-
-The Confusion Matrix shows the results of the model after being tested on its ability to recognize each letter, in the image it shows that the AI had a difficult time recognizing the difference between an 'a' and 'c'.
+This model shows the CNN model that we used to train the AI, the CNN takes pictures and breaks it down into smaller segments called features. It looks for similar features in similarly the same places in two images. This allows the CNN to have more confidence in deciding between if its an 'a', 'b', or 'c'. It uses these features in a Convolution, a convolution is a filter of every possible position the feature it collected can be matched to and attempts to find where it fits in. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as a activation function for the CNN.
 
 ## 4. Methodology
 
@@ -68,11 +62,15 @@ In this research we built the model using a convolution neural network (CNN) to 
 
 ## 5. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
+![Figure 3](https://github.com/cybertraining-dsc/su21-reu-364/raw/main/project/images/ConfusionMatrixCNN.png)
+
+**Figure 3:** The Confusion Matrix of the finished CNN model.
+
+The Confusion Matrix shows the results of the model after being tested on its ability to recognize each letter, in the image it shows that the AI had a difficult time recognizing the difference between an 'a' and 'c' only getting 6% of the images labelled as 'c' correct.
 
 ## 6. Conclusion
 
-We set out to write a program to recognize a hand and the letter it was making using a convolutional neural network (CNN) the results of our research was the programs ability to identify each of the three letters with a average of 66% accuracy, out of the three letters 'a' and 'c' became the most difficult for the CNN to differientiate from each other this is seen in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters 'a' and 'c' and the lack of a larger dataset for the AI to learn from. We determine with a larger dataset to be used in both variation of the entire alphabet and increase number of examples of each letter to train the AI on, it would result in a higher level of accuracy and a better result from the confusion matrix. In future studies using a larger dataset this can be applied to more complex methods than just singluar letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning. 
+We set out to write a program to recognize a hand and the letter it was making using a convolutional neural network (CNN) the results of our research was the programs ability to identify each of the three letters with a average of 66% accuracy, out of the three letters 'a' and 'c' became the most difficult for the CNN to differientiate from each other this is seen in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters 'a' and 'c' and the lack of a larger dataset for the AI to learn from. We determine with a larger dataset to be used in both variation of the entire alphabet and increase number of examples of each letter to train the AI on, it would result in a higher level of accuracy and a better result from the confusion matrix. In future studies using a larger dataset this can be applied to more complex methods than just singluar letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning.
 
 ## 7. Acknowledgments
 
@@ -105,3 +103,5 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
       <https://doi.org/10.1145/3414685.3417852>
  
 [^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
+
+[^10]: <https://e2eml.school/how_convolutional_neural_networks_work.html>
