@@ -54,7 +54,7 @@ In this research we use two sources of datasets, the first is from kaggle which 
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
-This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an 'a', 'b', or 'c' upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN.
+This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an 'a', 'b', or 'c' upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in [10]. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN [11].
 
 - [] What is a Relu operation?
 - [] What is a Conv2d?
@@ -110,8 +110,11 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 [^8]: Jiayi Wang, Franziska Mueller, Florian Bernard, Suzanne Sorli, Oleksandr Sotnychenko, Neng Qian, Miguel A. Otaduy, Dan Casas, and Christian Theobalt. 2020. RGB2Hands: real-time tracking of 3D hand interactions from monocular RGB video. ACM Trans. Graph. 39, 6, Article 218 (December 2020), 16 pages.
       <https://doi.org/10.1145/3414685.3417852>
  
-[^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
+[^9]: Tatan, V. (2019, December 23). Understanding CNN (convolutional neural network). Towards Data Science. 
+      <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
 
-[^10]: <https://e2eml.school/how_convolutional_neural_networks_work.html>
+[^10]: Rohrer, B. (2016, August 18). How do Convolutional Neural Networks work? Library for end-to-end machine learning. 
+      <https://e2eml.school/how_convolutional_neural_networks_work.html>
 
-[^11]: <https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022>
+[^11]: Patel, K. (2020, October 18). Convolution neural networks - a beginner's Guide. Towards Data Science.
+      <https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022>
