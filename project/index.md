@@ -105,3 +105,5 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 [^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
 
 [^10]: <https://e2eml.school/how_convolutional_neural_networks_work.html>
+
+[^11]: <https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022>
