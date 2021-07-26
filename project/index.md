@@ -66,7 +66,7 @@ This model shows the CNN model that we used to train the AI. The CNN takes pictu
 ## 4. Methodology
 
 
-In this research, we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters ('a', 'b', and 'c'), using a collection of 282 images. The Dataset contains 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segments of an image and tell the difference from one another using weights and biases. With the proper training, it is able to learn and identify these characteristics [9]. Define Model(Maxpooling, Conv2d + RELU, Flatten, Fully Connected, Softmax)
+In this research, we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters ('a', 'b', and 'c'), using a collection of 282 images. The Dataset contains 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segments of an image and tell the difference from one another using weights and biases. With the proper training, it is able to learn and identify these characteristics [9].
 
 ## 5. Benchmark
 
@@ -113,3 +113,5 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 [^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
 
 [^10]: <https://e2eml.school/how_convolutional_neural_networks_work.html>
+
+[^11]: <https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022>
