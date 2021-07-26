@@ -22,7 +22,7 @@ David Umanzor, [su21-reu-364](https://github.com/cybertraining-dsc/su21-reu-364)
 
 ## Abstract
 
-In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters 'a', 'b', and 'c' in ASL. With this we build a model to recognize the letter and output the letter it predicts.
+In this project, we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters 'a', 'b', and 'c' in ASL. The proposed CNN model receives an ASL image and recognizes the feature of the image, generating the predicted letter.
 
 Contents
 
@@ -34,11 +34,11 @@ Contents
 
 ## 1. Introduction
 
-Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly5 recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
+Object detection and feature selection are essential tasks in computer vision and have been approached from various perspectives over the past few decades [1]. The brain uses object recognition to solve an inverse problem: one where (surface properties, shapes, and arrangements of objects) need to be inferred from the perceived outcome of the image formation process [3]. Visual object recognition as a neural substrate in humans was revealed by neuropsychological studies. There are specific brain regions that cause object recognition, yet we still do not understand how the brain achieves this remarkable behavior [2]. Human beings rely and rapidly recognize objects despite considerable retinal image transformations arising from changes in lighting, image size, position, and viewing angle [2].
 
-A gesture is a form of non verbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is it allows communication over a long distance [5]. American Sign Language (ASL) is the formal language that has the same lingual properties as oral languages commonly used by deaf people as a way of communication [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be very difficult using this as people are not typically willing to learn sign language [7].
+A gesture is a form of nonverbal communication done with positions and movements of the hand, arms, body parts, hand shapes, movements of the lips or face [4]. One of the key differences of hand gestures is that they allow communication over a long distance [5]. American Sign Language (ASL) is a formal language that has the same lingual properties as oral languages commonly used by deaf people to communicate [6]. ASL typically is formed by the finger, hand, and arm positioning and can contain static and dynamic movement or a combination of both to communicate words and meanings to another [7]. Communication with other people can be challenging because people are not typically willing to learn sign language [7].
 
-In this paper we consider the problem of detecting and understanding American Sign Language, we test a computers ability to recognize the ASL alphabet. As advancements in technology increase there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based methods, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsitant lighting conditions, non-hand color similarity, and varying viewpoints can decrease a computers ability to recognitize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.
+In this paper, we consider the problem of detecting and understanding American Sign Language. We test CNN's ability to recognize the ASL alphabet. As advancements in technology increase, there are more improvements to 2D methods of hand detection. Commonly these methods are visual-based, using color, shape, and edge to detect and recognize the hand [8]. There are issues to these technologies like inconsistent lighting conditions, non-hand color similarity, and varying viewpoints that can decrease the model's ability to recognize the hand and its positioning. We use a Convolutional Neural Network to create the model and detect different letters of American Sign Language.
 
 ## 2. Data Sets
 
@@ -54,11 +54,19 @@ In this research we use two sources of datasets, the first is from kaggle which 
 
 **Figure 2:** The Convolutional Neural Network (CNN) model.
 
-This model shows the CNN model that we used to train the AI, the CNN takes pictures and breaks it down into smaller segments called features. It looks for similar features in similarly the same places in two images. This allows the CNN to have more confidence in deciding between if its an 'a', 'b', or 'c'. It uses these features in a Convolution, a convolution is a filter of every possible position the feature it collected can be matched to and attempts to find where it fits in. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as a activation function for the CNN.
+This model shows the CNN model that we used to train the AI. The CNN takes pictures and breaks them down into smaller segments called features. It is trained to find patterns and features over the images allowing the CNN to predict an 'a', 'b', or 'c' upon the given ASL image with high accuracy. A CNN uses a convolution operation that filters every possible position the feature it collected can be matched to and attempts to find where it fits in. This process is repeated and becomes the convolution layer or in the image depicted as Conv2d + Relu. The ReLU stands for the rectified linear unit and is used as an activation function for the CNN.
+
+- [] What is a Relu operation?
+- [] What is a Conv2d?
+- [] What is a BashNormalization operation?
+- [] what is Maxpooling operation?
+- [] what is Fully Connected?
+- [] what is Softmax operation?
 
 ## 4. Methodology
 
-In this research we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters, using a collection of 282 image data set each containing 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segements of a image and tell the difference from one another using weights and biases and with the proper training it is able to learn to identify these characteristics [9]. Define Model(Maxpooling, Conv2d + RELU, Flatten, Fully Connected, Softmax)
+
+In this research, we built the model using a convolution neural network (CNN) to create an AI that can recognize ASL letters ('a', 'b', and 'c'), using a collection of 282 images. The Dataset contains 94 images for each letter to train the AI's CNN. This can be expanded to allow an AI to recognize letters, words, and any expression that can be made using a still image of the hands. A CNN fits this perfectly as we can use its ability to assign importance to segments of an image and tell the difference from one another using weights and biases. With the proper training, it is able to learn and identify these characteristics [9]. Define Model(Maxpooling, Conv2d + RELU, Flatten, Fully Connected, Softmax)
 
 ## 5. Benchmark
 
@@ -70,7 +78,7 @@ The Confusion Matrix shows the results of the model after being tested on its ab
 
 ## 6. Conclusion
 
-We set out to write a program to recognize a hand and the letter it was making using a convolutional neural network (CNN) the results of our research was the programs ability to identify each of the three letters with a average of 66% accuracy, out of the three letters 'a' and 'c' became the most difficult for the CNN to differientiate from each other this is seen in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters 'a' and 'c' and the lack of a larger dataset for the AI to learn from. We determine with a larger dataset to be used in both variation of the entire alphabet and increase number of examples of each letter to train the AI on, it would result in a higher level of accuracy and a better result from the confusion matrix. In future studies using a larger dataset this can be applied to more complex methods than just singluar letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning.
+We build a model to recognize an ASL given an image and predict the corresponding letter using a convolutional neural network. The model provides a means of 66% accuracy in classifying the ASL among the three classes 'a', 'b', and 'c'. From the given results, the letters 'a' and 'c' became the most difficult for the CNN to differentiate from each other, as shown in the confusion matrix in figure 3. We suggest that the low accuracy rate is based on similar appearing grayscale of the letters 'a' and 'c' and the lack of a larger dataset for the AI to learn from. We determine that using a larger dataset of the entire alphabet and increasing the number of examples of each letter to train the AI could improve the results.  Future studies using a larger dataset can be applied to more complex methods than just singular letters but words from the ASL language to recreate a text to speech software based around ASL hand positioning.
 
 ## 7. Acknowledgments
 
@@ -105,5 +113,3 @@ We thank Carlos Theran (Florida A & M University) for advising, guidance, and re
 [^9]: <https://towardsdatascience.com/understanding-cnn-convolutional-neural-network-69fd626ee7d4>
 
 [^10]: <https://e2eml.school/how_convolutional_neural_networks_work.html>
-
-[^11]: <https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022>
