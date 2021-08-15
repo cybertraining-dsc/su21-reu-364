@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Project: Hand Tracking with AI"
 linkTitle: "Hand Tracking"
-tags: ["project", "reu", "ai", "object recognition", "image processing", "computer vision"]
+tags: ["project", "reu", "ai", "communication"]
 description: "In this project we study the ability of an AI to recognize letters from the American Sign Language (ASL) alphabet. We use a Convolutional Neural Network and apply it to a dataset of hands in different positionings showing the letters 'a', 'b', and 'c' in ASL. With this we build a model to recognize the letter and output the letter it predicts."
 author: David, Umanzor
 github_url: https://github.com/cybertraining-dsc/su21-reu-364/edit/main/project/index.md
